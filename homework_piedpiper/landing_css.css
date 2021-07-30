@@ -1,28 +1,75 @@
 h1 {
-    text-decoration: wavy;
-    font-style: italic;
-    color: chocolate;
+  text-align: center;
+  color: #007765;
+  font-family: sans-serif;
+  font-size: 75px;
 }
-.header_links{
-    text-align: right;
-    padding-right: 20px;
-    padding-top: 29px;
-    font-size: 29px;
-    color: white;
-    
+.header_links {
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 29px;
+  font-size: 29px;
+  color: white;
 }
-.header{
-    display: block;
-    width: 1219px;
-    height: 84px;
-    background: url("images/rectangle.png")
+.header {
+  display: block;
+  position: fixed;
+  width: 1219px;
+  height: 84px;
+  background: url("images/rectangle.png");
 }
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-body{
-    margin-left: auto;
-    margin-right: auto;
+body {
+  margin: auto;
+  width: 1219px;
+}
+.ppnet_here {
+  background: url("images/pp_is_here.png");
+  height: 403px;
+  width: 1219px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  padding-top: 84px;
+  white-space: nowrap;
+}
+.ppnet_here_text {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 83px;
+  font-family: sans-serif;
+  padding-top: 10%;
+  height: 403px;
+}
+.the_problem {
+  background: url("images/the_problem_bg.png");
+  display: inline-block;
+  width: 1219px;
+}
+p {
+  width: 1110px;
+  font-family: sans-serif;
+  font-size: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.together{
+    background: url("images/together.png");
+    display: inline-block;
+    height: 483px;
     width: 1219px;
+}
+.together_text{
+    display: block;
+    text-align: right;
+    font-size: 48px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 15%;
+    width: 893px;
 }
