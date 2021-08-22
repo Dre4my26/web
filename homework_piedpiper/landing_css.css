@@ -2,14 +2,22 @@ h1 {
   text-align: center;
   color: #007765;
   font-family: sans-serif;
-  font-size: 75px;
+  font-size: 64px;
+}
+.PP_logo {
+  padding-left: 55px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  width: 50px;
+  height: 20px;
+  position: absolute;
 }
 .header_links {
-  text-align: right;
-  padding-right: 20px;
-  padding-top: 29px;
-  font-size: 29px;
+  text-align: end;
   color: white;
+  font-size: 24px;
+  margin-right: 54px;
+  padding-top: 29px;
 }
 .header {
   display: block;
@@ -27,6 +35,8 @@ body {
   width: 1219px;
 }
 .ppnet_here {
+  background-size: cover;
+  background-position: center;
   background: url("images/pp_is_here.png");
   height: 403px;
   width: 1219px;
@@ -34,7 +44,6 @@ body {
   justify-content: center;
   align-items: center;
   position: static;
-  padding-top: 84px;
   white-space: nowrap;
 }
 .ppnet_here_text {
@@ -58,18 +67,67 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.together{
-    background: url("images/together.png");
-    display: inline-block;
-    height: 483px;
-    width: 1219px;
+.together {
+  background: url("images/together.png");
+  display: inline-block;
+  height: 483px;
+  width: 1219px;
 }
-.together_text{
-    display: block;
-    text-align: right;
-    font-size: 48px;
-    color: white;
-    font-family: sans-serif;
-    padding-top: 15%;
-    width: 893px;
+.together_text {
+  display: block;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 15%;
+  width: 893px;
+  padding-left: 163px;
+}
+.ppcoin_logo {
+  padding-left: 20px;
+  width: 115px;
+  height: 115px;
+  background-color: white;
+  float: left;
+}
+.ppcoin_text {
+  margin-left: 218px;
+  width: 930px;
+  display: block;
+}
+.the_team {
+  background-color: #eeeeee;
+  display: block;
+  width: 1219px;
+  height: 750px;
+}
+.team_names {
+  text-align: center;
+  font-size: 24px;
+  color: #007765;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.team_photos {
+  display: block;
+  width: 168px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.team_role {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.team_member_card {
+  display: block;
+  width: 350px;
+  height: 283px;
+  margin: 0px;
+  float: left;
+  margin-left: 35px;
 }
